@@ -3,9 +3,29 @@
   "description": "Automate common Shopify Theme Lab processes",
   "author": "Sergej Samsonenko <contact@sergej.codes>",
   "version": "0.0.0",
+  "license": "MIT",
   "keywords": [
-    "shopify theme lab",
-    "automation"
+    "shopify",
+    "theme lab",
+    "cli"
   ],
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uicrooks/shopify-theme-lab-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uicrooks/shopify-theme-lab-cli/issues"
+  },
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "main": "./bin/index.js",
+  "bin": {
+    "themelab": "./bin/index.js",
+    "lab": "./bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^6.2.1",
+    "inquirer": "^7.3.3"
+  }
 }
