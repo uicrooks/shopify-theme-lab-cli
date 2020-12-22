@@ -1,5 +1,5 @@
 {
-  "repos": {
+  "repo": {
     "cli": "https://github.com/uicrooks/shopify-theme-lab-cli",
     "env": "https://github.com/uicrooks/shopify-theme-lab"
   }
