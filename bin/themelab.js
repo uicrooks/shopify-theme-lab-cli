@@ -22,13 +22,6 @@ program
     require('../lib/create')(projectName)
   })
 
-program
-  .command('theme <repository>')
-  .description('setup a theme from a GitHub repository')
-  .action((repository) => {
-    require('../lib/theme')(repository)
-  })
-
 /**
  * arguments
  */
