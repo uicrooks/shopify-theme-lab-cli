@@ -13,13 +13,13 @@
 <!-- title / description (start) -->
 <h2 align="center">Shopify Theme Lab CLI</h2>
 
-Quickly create a local [Shopify Theme Lab](https://github.com/uicrooks/shopify-theme-lab) development environment or themes.
+Command Line Interface for [Shopify Theme Lab](https://github.com/uicrooks/shopify-theme-lab).
 <!-- title / description (end) -->
 
 <!-- commands (start) -->
 ## Commands
 
-Create local develpment environment
+Create a local development environment
 ```sh
 $ npx themelab create <directory-name>
 ```
