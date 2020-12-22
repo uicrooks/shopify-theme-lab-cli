@@ -1,0 +1,11 @@
+{
+  "name": "shopify-theme-lab-cli",
+  "description": "Automate common Shopify Theme Lab processes",
+  "author": "Sergej Samsonenko <contact@sergej.codes>",
+  "version": "0.0.0",
+  "keywords": [
+    "shopify theme lab",
+    "automation"
+  ],
+  "license": "MIT"
+}
