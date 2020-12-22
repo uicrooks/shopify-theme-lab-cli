@@ -19,13 +19,14 @@
   "engines": {
     "node": ">= 12.0.0"
   },
-  "main": "./bin/index.js",
+  "main": "./bin/themelab.js",
   "bin": {
-    "themelab": "./bin/index.js",
-    "lab": "./bin/index.js"
+    "themelab": "./bin/themelab.js",
+    "lab": "./bin/themelab.js"
   },
   "dependencies": {
     "commander": "^6.2.1",
+    "git-clone": "^0.1.0",
     "inquirer": "^7.3.3"
   }
 }
