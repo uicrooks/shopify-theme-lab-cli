@@ -1,8 +1,8 @@
 {
-  "name": "shopify-theme-lab-cli",
-  "description": "Automate common Shopify Theme Lab processes",
+  "name": "themelab",
+  "description": "Shopify Theme Lab CLI",
   "author": "Sergej Samsonenko <contact@sergej.codes>",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "keywords": [
     "shopify",
@@ -21,8 +21,7 @@
   },
   "main": "./bin/themelab.js",
   "bin": {
-    "themelab": "./bin/themelab.js",
-    "lab": "./bin/themelab.js"
+    "themelab": "./bin/themelab.js"
   },
   "dependencies": {
     "chalk": "^4.1.0",
