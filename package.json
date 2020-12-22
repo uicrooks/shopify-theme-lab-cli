@@ -29,7 +29,6 @@
     "commander": "^6.2.1",
     "fs-extra": "^9.0.1",
     "git-clone": "^0.1.0",
-    "inquirer": "^7.3.3",
     "ora": "^5.1.0"
   }
 }
