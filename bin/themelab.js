@@ -25,8 +25,9 @@ program
 program
   .command('bundle')
   .description('create a sharable Shopify Theme Lab theme')
+  .option('-z, --zip', 'zip the theme')
   .action(() => {
-    require('../lib/bundle')()
+    require('../lib/bundle')(process.argv.slice(3))
   })
 
 /**
