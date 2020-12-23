@@ -22,6 +22,13 @@ program
     require('../lib/create')(projectName)
   })
 
+program
+  .command('bundle')
+  .description('create a sharable Shopify Theme Lab theme')
+  .action(() => {
+    require('../lib/bundle')()
+  })
+
 /**
  * arguments
  */
