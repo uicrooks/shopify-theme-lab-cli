@@ -18,29 +18,29 @@ Command Line Interface for [Shopify Theme Lab](https://github.com/uicrooks/shopi
 
 <!-- commands (start) -->
 ## Commands
-> For all options you can also use the shorthand version, which is the first letter only with a single dash infront e.g. For `--password` it's `-p`.
+> For all options you can also use the shorthand version, which is the first letter only, with a single dash in front e.g. For `--password` it's `-p`.
 
-Create a local development environment:
+**Create a local development environment:**
 ```sh
 $ npx themelab create <directory-name>
 ```
 
-Create a local development environment from a git repo:
+**Create a local development environment from a git repo:**
 ```sh
 $ npx themelab create <directory-name> --repo https://github.com/user/repo
 ```
 
-Initialize a remote Shopify theme and create a local config file:
+**Initialize a remote Shopify theme and create a local config file:**
 ```sh
 $ npx themelab shopify:init --password [your-api-password] --store [your-store.myshopify.com] --env [dev or live] --name ['theme name']
 ```
 
-Create a local config file (connect to an existing theme on a remote store):
+**Create a local config file (connect to an existing theme on a remote store):**
 ```sh
 $ npx themelab shopify:init --password [your-api-password] --store [your-store.myshopify.com] --env [dev or live] --id [theme-id]
 ```
 
-Display help:
+**Display help:**
 ```sh
 $ npx themelab --help
 ```
