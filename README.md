@@ -14,7 +14,14 @@
 <h2 align="center">Shopify Theme Lab CLI</h2>
 
 Command Line Interface for [Shopify Theme Lab](https://github.com/uicrooks/shopify-theme-lab).
+> There is no need to install this package locally, `npx` takes care of everything, simply run the commands in your terminal.
 <!-- title / description (end) -->
+
+<!-- system requirements (start) -->
+## System requirements
+
+- Node.js >= `12.0.0`
+<!-- system requirements (end) -->
 
 <!-- commands (start) -->
 ## Commands
