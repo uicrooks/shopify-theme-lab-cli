@@ -4,6 +4,7 @@
  * require
  */
 const { program } = require('commander')
+const minimist = require('minimist')
 
 /**
  * setup
@@ -16,10 +17,11 @@ program
  * commands
  */
 program
-  .command('create <project-name>')
-  .description('initialize a Shopify Theme Lab project')
-  .action((projectName) => {
-    require('../lib/create')(projectName)
+  .command('create <directory>')
+  .description('create a Shopify Theme Lab environment')
+  .option('-r, --repo <url>', 'use a git repository url')
+  .action((directory) => {
+    require('../lib/create')(directory, minimist(process.argv.slice(3)))
   })
 
 /**
