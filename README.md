@@ -31,11 +31,13 @@ $ npx themelab create <directory-name> --repo https://github.com/user/repo
 ```
 
 **Initialize a remote Shopify theme and create a local config file:**
+> Run in the root directory of your Shopify Theme Lab project!
 ```sh
 $ npx themelab shopify:init --password [your-api-password] --store [your-store.myshopify.com] --env [dev or live] --name ['theme name']
 ```
 
 **Create a local config file (connect to an existing theme on a remote store):**
+> Run in the root directory of your Shopify Theme Lab project!
 ```sh
 $ npx themelab shopify:init --password [your-api-password] --store [your-store.myshopify.com] --env [dev or live] --id [theme-id]
 ```
