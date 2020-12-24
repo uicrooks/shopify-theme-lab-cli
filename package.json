@@ -24,7 +24,6 @@
     "themelab": "./bin/themelab.js"
   },
   "dependencies": {
-    "archiver": "^5.1.0",
     "chalk": "^4.1.0",
     "commander": "^6.2.1",
     "fs-extra": "^9.0.1",
