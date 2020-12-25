@@ -20,6 +20,7 @@ program
   .command('create <directory>')
   .description('create a Shopify Theme Lab environment')
   .option('-r, --repo <url>', 'use a git repository url')
+  .option('-p, --preset', 'select a preset to create from')
   .action((directory, cmd) => {
     require('../lib/create')(directory, cmd)
   })

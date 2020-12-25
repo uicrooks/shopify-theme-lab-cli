@@ -2,5 +2,11 @@
   "repo": {
     "cli": "https://github.com/uicrooks/shopify-theme-lab-cli",
     "env": "https://github.com/uicrooks/shopify-theme-lab"
-  }
+  },
+  "presets": [
+    {
+      "name": "Vue + Tailwind CSS (Starter)",
+      "value": "https://github.com/uicrooks/shopify-theme-lab"
+    }
+  ]
 }
