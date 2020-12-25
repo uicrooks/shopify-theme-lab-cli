@@ -32,6 +32,12 @@ Command Line Interface for [Shopify Theme Lab](https://github.com/uicrooks/shopi
 $ npx themelab create <directory-name>
 ```
 
+**Create a local development environment from a preset:**
+> Prints a list of available options in the terminal to select from
+```sh
+$ npx themelab create <directory-name> --preset
+```
+
 **Create a local development environment from a git repo:**
 ```sh
 $ npx themelab create <directory-name> --repo https://github.com/user/repo
