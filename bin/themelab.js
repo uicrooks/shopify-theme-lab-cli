@@ -9,7 +9,6 @@ const { program } = require('commander')
  * setup
  */
 program
-  .storeOptionsAsProperties(false)
   .version(`Shopify Theme Lab CLI ${require('../package').version}`, '-v, --version', 'output the version number')
   .usage('<command> [options]')
 
@@ -21,7 +20,7 @@ program
   .description('create a Shopify Theme Lab environment')
   .option('-r, --repo <url>', 'use a git repository url')
   .option('-p, --preset', 'select a preset to create from')
-  .action((directory, cmd) => {
+  .action((directory, options, cmd) => {
     require('../lib/create')(directory, cmd)
   })
 
@@ -33,7 +32,7 @@ program
   .option('-e, --env <env>', 'Environment [dev] or [live]', 'dev')
   .option('-n, --name <name>', 'Theme name', 'Shopify Theme Lab')
   .option('-i, --id <id>', 'If you provide a theme id, the command only creates a local config')
-  .action((cmd) => {
+  .action((options, cmd) => {
     require('../lib/shopify-init')(cmd)
   })
 

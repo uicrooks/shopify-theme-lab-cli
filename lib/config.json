@@ -5,8 +5,12 @@
   },
   "presets": [
     {
-      "name": "Vue + Tailwind CSS (Starter)",
+      "name": "[Starter] Theme Lab (Vue / Tailwind CSS)",
       "value": "https://github.com/uicrooks/shopify-theme-lab"
+    },
+    {
+      "name": "[Theme] Foundation (Vue / Tailwind CSS)",
+      "value": "https://github.com/uicrooks/shopify-foundation-theme"
     }
   ]
 }
