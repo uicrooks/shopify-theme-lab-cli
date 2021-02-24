@@ -29,9 +29,10 @@ program
   .description('initialize theme on remote Shopify store and a local config')
   .requiredOption('-p, --password <password>', 'Shopify plugin API password')
   .requiredOption('-s, --store <store>', '[your-store].myshopify.com')
-  .option('-e, --env <env>', 'Environment [dev] or [live]', 'dev')
-  .option('-n, --name <name>', 'Theme name', 'Shopify Theme Lab')
-  .option('-i, --id <id>', 'If you provide a theme id, the command only creates a local config')
+  .option('-e, --env <env>', 'environment [dev] or [live]', 'dev')
+  .option('-n, --name <name>', 'theme name', 'Shopify Theme Lab')
+  .option('-i, --id <id>', 'if you provide a theme id, the command only creates a local config')
+  .option('-m, --main', 'create a local config for the currently published theme')
   .action((options, cmd) => {
     require('../lib/shopify-init')(cmd)
   })

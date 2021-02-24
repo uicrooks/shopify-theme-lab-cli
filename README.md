@@ -38,11 +38,6 @@ $ npx themelab create <directory-name>
 $ npx themelab create <directory-name> --preset
 ```
 
-**Create a local development environment from a git repo:**
-```sh
-$ npx themelab create <directory-name> --repo https://github.com/user/repo
-```
-
 **Initialize a remote Shopify theme and create a local config file:**
 > Run in the root directory of your Shopify Theme Lab project!
 ```sh
@@ -53,6 +48,12 @@ $ npx themelab shopify:init --password [your-api-password] --store [your-store.m
 > Run in the root directory of your Shopify Theme Lab project!
 ```sh
 $ npx themelab shopify:init --password [your-api-password] --store [your-store.myshopify.com] --env [dev or live] --id [theme-id]
+```
+
+**Create a local config file for a published/main theme:**
+> Run in the root directory of your Shopify Theme Lab project!
+```sh
+$ npx themelab shopify:init --password [your-api-password] --store [your-store.myshopify.com] --env [dev or live] --main
 ```
 
 **Display help:**
