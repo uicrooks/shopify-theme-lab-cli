@@ -2,7 +2,7 @@
   "name": "themelab",
   "description": "Shopify Theme Lab CLI",
   "author": "Sergej Samsonenko <contact@sergej.codes>",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "license": "MIT",
   "keywords": [
     "shopify",
