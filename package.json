@@ -2,7 +2,7 @@
   "name": "themelab",
   "description": "Shopify Theme Lab CLI",
   "author": "Sergej Samsonenko <contact@sergej.codes>",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "license": "MIT",
   "keywords": [
     "shopify",
@@ -24,13 +24,13 @@
     "themelab": "./bin/themelab.js"
   },
   "dependencies": {
-    "@shopify/themekit": "^1.1.8",
+    "@shopify/themekit": "^1.1.9",
     "axios": "^0.21.1",
     "chalk": "^4.1.1",
-    "commander": "^7.2.0",
+    "commander": "^8.0.0",
     "fs-extra": "^10.0.0",
     "git-clone": "^0.1.0",
-    "inquirer": "^8.1.0",
+    "inquirer": "^8.1.1",
     "ora": "^5.4.1",
     "yaml": "^1.10.2"
   }
